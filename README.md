@@ -16,7 +16,7 @@ name will be your subdomain (e.g. test)
 data wil be your ip address again
 ```
 ### CNAME
-#####used for telling your domain server that www.example.com is the same as example.com
+#####used for telling your domain server that ![]www.example.com is the same as example.com
 ```
 name will be www
 data will be your domain name followed by a . (e.g. example.com.)

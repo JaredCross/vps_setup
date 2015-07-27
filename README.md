@@ -32,6 +32,9 @@ data will be your domain name followed by a . (e.g. example.com.)
 ```
 
 # Inititial VPS Admin Setup
+
+#####Replace userName with the username that you choose. Applicable to lines 1, 2, and 7
+
 ```
 1. adduser userName
 
@@ -91,6 +94,7 @@ https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#instal
 4. sudo vi /etc/apt/sources.list.d/passenger.list
 
 5. deb https://oss-binaries.phusionpassenger.com/apt/passenger trusty main
+   -Paste line 5 into the document that the command from line 4 opened
 
 6. sudo chown root: /etc/apt/sources.list.d/passenger.list
 
@@ -101,7 +105,7 @@ https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#instal
 9. sudo apt-get install nginx-extras passenger
 
 10. sudo vi /etc/nginx/nginx.conf
-    - uncomment (delete #'s) on passenger_root and passenger_ruby
+    -uncomment (delete #'s) on passenger_root and passenger_ruby
 
 11. sudo service nginx restart
 ```
@@ -111,6 +115,9 @@ https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#instal
 # Getting Nginx set up
 
 #### Tell Nginx where we keep the files we want it to serve up to browsers
+
+#####Replace userName with the username you chose earlier and are currently using. Applicable to line 3.
+
 ```
 1. sudo mkdir /usr/share/nginx/www
 

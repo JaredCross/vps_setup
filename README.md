@@ -28,7 +28,15 @@ data will be your domain name followed by a . (e.g. example.com.)
 
 2. gpasswd -a userName sudo
 
-3. su userName
+3. vi  /etc/ssh/sshd_config
+
+4. find PermitRootLogin yes
+
+5 change to PermitRootLogin no
+
+6. service ssh restart
+
+7. su userName
 ```
 
 # Git Installation

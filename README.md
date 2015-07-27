@@ -114,5 +114,5 @@ https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#instal
 # SCP Instructions (Transferring files from your computer to your VPS)
 ```
 1. scp file_on_your_computer userName@yourIPAdress:path_where_you_want_file_placed
-  - e.g scp ~/workspace/nodeapp me@jaredcross.com:/usr/share/nginx/www/
+  - e.g scp ~/workspace/nodeapp me@example.com:/usr/share/nginx/www/
 ```

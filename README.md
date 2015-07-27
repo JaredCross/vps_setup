@@ -1,25 +1,25 @@
 # Domain Name Setup
 #### video shows using google domains, but format is applicable for any domain service
 
- ###A Record
-  ##### used for pointing your domain name at your server's ip address
-  ##### used for creating subdomains (e.g. subdomain.example.com)
+###A Record
+##### used for pointing your domain name at your server's ip address
+##### used for creating subdomains (e.g. subdomain.example.com)
 
- #### pointing domain at ip address
-    name will be @
-    data will be your ip address
+#### pointing domain at ip address
+name will be @
+data will be your ip address
 
- #### creating subdomain
- ```
+#### creating subdomain
+```
 name will be your subdomain (e.g. test)
 data wil be your ip address again
 ```
- ### CNAME
-  #####used for telling your domain server that www.example.com is the same as example.com
-  ```
-  name will be www
+### CNAME
+#####used for telling your domain server that www.example.com is the same as example.com
+```
+name will be www
 data will be your domain name followed by a . (e.g. example.com.)
-  ```
+```
 
 # Inititial VPS Admin Setup
 ```

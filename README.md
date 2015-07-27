@@ -1,7 +1,7 @@
 # Domain Name Setup
 #### video shows using google domains, but format is applicable for any domain service
 
- ### A Record
+ ###A Record
   ##### used for pointing your domain name at your server's ip address
   ##### used for creating subdomains (e.g. subdomain.example.com)
 

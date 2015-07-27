@@ -1,6 +1,6 @@
 #Domain Name and VPS Setup Companion Guide
 ####Companion guide to go along with the video at https://youtu.be/PS8-bm_v1Zw
-#####This guide is updated and correct as of July 26th
+#####This guide is updated and correct as of July 27th, 2015.
 
 #####Hey everyone! This is the companion guide to go with the youtube video I made. I posted the link at the top of this readme. If anything in the guide looks different than the video, then go with this guide.
 
@@ -82,7 +82,7 @@ http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
 ```
 
 
-# Passenger Installation
+# Passenger and Nginx Installation
 https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#installation
 ```
 1. sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 561F9B9CAC40B2F7
@@ -138,6 +138,8 @@ https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#instal
 
 #Getting your Node app ready
 
+####Adding a few lines of code to your Node app, creating an empty folder called tmp, pushing those changes to your github, and the cloning as https from your github down into the www directory of your vps.
+
 ```
 1. add the following to your app.js file:
 
@@ -154,7 +156,9 @@ https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#instal
 5. Add lines per the video
 ```
 
-# SCP Instructions (Transferring files from your computer to your VPS)
+# SCP Instructions
+####Transferring files from your computer to your VPS
+
 ```
 1. scp file_on_your_computer userName@yourIPAdress:path_where_you_want_file_placed
   - e.g scp ~/workspace/nodeapp me@example.com:/usr/share/nginx/www/

@@ -43,7 +43,7 @@ data will be your domain name followed by a . (e.g. example.com.)
 ```
 1. sudo apt-get update
 
-2. sudo install git
+2. sudo apt-get install git
 ```
 
 # Node Installation

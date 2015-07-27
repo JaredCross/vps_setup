@@ -106,13 +106,13 @@ https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#instal
 
 2. cd /usr/share/nginx/www
 
-3. chown -R userName .
+3. sudo chown -R userName .
 
-4. chgrp -R www-data .
+4. sudo chgrp -R www-data .
 
-5. chmod -R 750 .
+5. sudo chmod -R 750 .
 
-6. chmod g+s .
+6. sudo chmod g+s .
 
 7. sudo vi /etc/nginx/sites-enabled/default
 
@@ -129,6 +129,12 @@ https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#instal
   }
 
 2. create a folder name tmp in your node app directory
+
+3. git clone your folder into /usr/share/nginx/www
+
+4. sudo vi /etc/nginx/sites-enabled/default
+
+5. Add lines per the video
 ```
 
 # SCP Instructions (Transferring files from your computer to your VPS)

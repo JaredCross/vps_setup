@@ -111,6 +111,18 @@ https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#instal
 8. Add lines per the video
 ```
 
+#Getting your Node app ready
+
+```
+1. add the following to your app.js file:
+
+  if (app.get('env') === 'production') {
+    app.listen(3000);
+  }
+
+2. create a folder name tmp in your node app directory
+```
+
 # SCP Instructions (Transferring files from your computer to your VPS)
 ```
 1. scp file_on_your_computer userName@yourIPAdress:path_where_you_want_file_placed

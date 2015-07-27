@@ -6,8 +6,8 @@
 ##### used for creating subdomains (e.g. subdomain.example.com)
 
 #### pointing domain at ip address
-name will be @
-data will be your ip address
+- name will be @
+- data will be your ip address
 
 #### creating subdomain
 ```

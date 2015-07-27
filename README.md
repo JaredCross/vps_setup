@@ -4,7 +4,7 @@
 
 #####Hey everyone! This is the companion guide to go with the youtube video I made. I posted the link at the top of this readme. If anything in the guide looks different than the video, then go with this guide.
 
-#####All of the instructions here are capable of being improved on. If you find a better way of doing anything at all, let me know. ALso, if anything is unclear, let me know as well and I will fix it right up!
+#####All of the instructions here are capable of being improved on. If you find a better way of doing anything at all, let me know. Also, if anything is unclear, let me know as well and I will fix it right up!
 
 
 # Domain Name Setup

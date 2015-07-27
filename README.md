@@ -1,3 +1,12 @@
+#Domain Name and VPS Setup Companion Guide
+####Companion guide to go along with the video at https://youtu.be/PS8-bm_v1Zw
+#####This guide is updated and correct as of July 26th
+
+#####Hey everyone! This is the companion guide to go with the youtube video I made. I post the link at the top of this readme. If anything in the guide looks different than the video, then go with this guide.
+
+#####All of the instructions here are capable of being improved on. If you find a better way of doing anything at all, let me know. ALso, if anything is unclear, let me know as well and I will fix it right up!
+
+
 # Domain Name Setup
 #### video shows using google domains, but format is applicable for any domain service
 
@@ -96,6 +105,7 @@ https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#instal
 
 11. sudo service nginx restart
 ```
+
 
 
 # Getting Nginx set up
